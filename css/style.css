@@ -93,13 +93,18 @@ header .navbar ul li a:hover {
   }
   header .navbar {
     position: fixed;
-    top: 6.5rem;
-    right: -120%;
+    /* top: 6.5rem;
+    right: -120%; */
+    top: 5rem;
+    right: 0%;
     width: 75%;
     height: 100%;
     text-align: left;
     align-items: flex-start;
     background-color: #0e0f31;
+  }
+  .navbarGo{
+    transform: translate(486px, 0px);
   }
   header .navbar ul {
     flex-flow: column;
