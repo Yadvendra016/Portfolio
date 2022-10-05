@@ -383,15 +383,15 @@ header .navbar ul li a:hover {
     
   }
 }
-@media (max-width: 365px){
+/* @media (max-width: 365px){
   #home .homeInfo{
     position: relative;
-    /* background-color: green; */
+    background-color: green;
     top: 133px;
     left: 0vw;
     width: 100vw;
     height: 48vh;
-  }
+  } */
   
 }
 /***** hero media queries end****/
