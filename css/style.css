@@ -9,7 +9,7 @@
   text-transform: capitalize;
   transition: all 0.2s linear;
 }
-html{
+html {
   overflow-x: hidden;
 }
 body {
@@ -37,7 +37,8 @@ section {
   min-height: 100vh;
   padding: 2rem 9%;
 }
-.heading { /*all heading style*/
+.heading {
+  /*all heading style*/
   font-size: 3.1rem;
   color: rgb(32, 32, 32);
   font-weight: 800;
@@ -103,7 +104,7 @@ header .navbar ul li a:hover {
     align-items: flex-start;
     background-color: #0e0f31;
   }
-  .navbarGo{
+  .navbarGo {
     transform: translate(486px, 0px);
   }
   header .navbar ul {
@@ -140,14 +141,10 @@ header .navbar ul li a:hover {
 }
 /* hamburger icon ends */
 
-
-
-
 /* *********************HEADER CONTENT********************** */
 
-
 /* ----------------hero section Styling Start------------------------- */
-#home{
+#home {
   display: flex;
   width: 100vw;
   height: 88vh;
@@ -164,22 +161,28 @@ header .navbar ul li a:hover {
   justify-content: center;
   background-size: 300% 300%;
   background-image: linear-gradient(
-        -45deg, 
-        rgba(59,173,227,1) 0%, 
-        rgba(87,111,230,1) 25%, 
-        rgba(152,68,183,1) 51%, 
-        rgba(255,53,127,1) 100%
-  );  
+    -45deg,
+    rgba(59, 173, 227, 1) 0%,
+    rgba(87, 111, 230, 1) 25%,
+    rgba(152, 68, 183, 1) 51%,
+    rgba(255, 53, 127, 1) 100%
+  );
   animation: AnimateBG 20s ease infinite;
 }
 
-@keyframes AnimateBG { 
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.homeContainer{
+.homeContainer {
   /* background-color: blue; */
   display: flex;
   width: 100vw;
@@ -248,14 +251,13 @@ header .navbar ul li a:hover {
 /* *****animation OF avatar ends **********/
 
 /* ********Home info styling starts******** */
- .homeInfo{
+.homeInfo {
   position: relative;
   top: 38px;
-    right: 14em;
+  right: 14em;
   /* background-color: yellow; */
   height: 70vh;
   width: 50vw;
-
 }
 #home .homeInfo h3 {
   font-size: 3rem;
@@ -375,17 +377,15 @@ header .navbar ul li a:hover {
   #home .homeInfo p span {
     font-size: 2.2rem;
   }
-  #home .avatar-element{
+  #home .avatar-element {
     display: none;
   }
-  
-  #home .homeInfo{
-      position: relative;
-    /* background-color: green; */
+
+  #home .homeInfo {
+    position: relative;
     left: 10vw;
     width: 69vw;
     height: 73vh;
-    
   }
 }
 /* @media (max-width: 365px){
@@ -397,7 +397,6 @@ header .navbar ul li a:hover {
     width: 100vw;
     height: 48vh;
   } */
-  
 
 /***** hero media queries end****/
 /* ****************************************HERO SECTION END***************************************** */
@@ -412,9 +411,9 @@ header .navbar ul li a:hover {
     font-weight: 800;
     text-align: center;
   } */
-  .about .heading span{
-    color: orange;
-  }
+.about .heading span {
+  color: orange;
+}
 .about .row {
   display: flex;
   flex-direction: row;
@@ -506,7 +505,7 @@ header .navbar ul li a:hover {
 }
 /* about media queries starts*/
 @media screen and (max-width: 970px) {
-  .about .row{
+  .about .row {
     display: flex;
     flex-wrap: wrap;
   }
@@ -689,7 +688,6 @@ header .navbar ul li a:hover {
 /* skills media queries ends*/
 /* _________________________skills section ends______________________________ */
 
-
 /* __________________________contact section Starts____________________________ */
 
 .contact {
@@ -849,7 +847,6 @@ form .button-area {
 /* __________________________contact section Ends_______________________________ */
 
 /* __________________________Footer section Start_______________________________ */
-
 
 .footer {
   min-height: auto;
