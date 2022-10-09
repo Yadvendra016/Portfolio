@@ -688,6 +688,94 @@ header .navbar ul li a:hover {
 /* skills media queries ends*/
 /* _________________________skills section ends______________________________ */
 
+/* _________________________ project section start __________________________*/
+#project{
+  
+	font-family: "Raleway", sans-serif;
+	background: #e5ecfb;
+}
+.container1{
+	margin: 30px;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.image1{
+	background: #1a1c1f;
+	position: relative;
+	flex: 1;
+	max-width: 350px;
+	height: 300px;
+  width: 600px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+.image1 img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+
+.image1:hover img{
+	opacity: 1;
+}
+
+.more{
+	position: absolute;
+	background: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	bottom: -60px;
+	transition: 0.6s;
+	transition-property: bottom;
+}
+
+.image1:hover .more{
+	bottom: 0;
+}
+.more .icon-links i{
+	color: #000;
+	font-size: 20px;
+}
+
+.more .icon-links a:not(:last-child) i{
+	margin-right: 20px;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+	.image1{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+
+@media (max-width: 400px){
+	.image1 .details p{
+		font-size: 16px;
+	}
+
+	.more .read-more, .more .icon-links a i{
+		font-size: 18px;
+	}
+}
+      
+
+
+
+
 /* __________________________contact section Starts____________________________ */
 
 .contact {
