@@ -760,6 +760,10 @@ header .navbar ul li a:hover {
 		flex: 100%;
 		max-width: 480px;
 	}
+	.row{
+	flex-wrap: wrap;
+	
+}
 }
 
 @media (max-width: 400px){
