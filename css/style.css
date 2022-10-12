@@ -405,12 +405,6 @@ header .navbar ul li a:hover {
 .about {
   background: rgb(255, 255, 255);
 }
-/* .about .heading{
-    font-size: 2rem;
-    color: rgb(32, 32, 32);
-    font-weight: 800;
-    text-align: center;
-  } */
 .about .heading span {
   color: orange;
 }
