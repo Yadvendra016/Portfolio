@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yadvendra Shukla</title>
-    <link rel="stylesheet" href="css/media_querry.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ main
 
 </head>
 
@@ -51,12 +53,12 @@
                 <div class="circle green avatar-element"></div>
                 <div class="circle blue avatar-element"></div>
                 <div class="image">
-                    <img src="image/avtar.png" alt="Avatar" class="avatar avatar-element ">
+                    <img  data-aos="fade-down" data-aos-duration="1000" src="image/avtar.png" alt="Avatar" class="avatar avatar-element ">
                 </div>
 
 
 
-                <div class="homeInfo">
+                <div class="homeInfo"  data-aos="fade-down" data-aos-duration="1000">
                     <h3>Hi There,<br /> I'm Yadvendra <span>Shukla</span></h3>
                     <p>I am a <span class="typing-text">Web developmer, programmer, Open Source Contributor </span></p>
                     <a href="#about" class="btn"><span>About Me</span>
@@ -90,7 +92,7 @@
     <section class="about" id="about">
         <h2 class="heading"><i class="fas fa-user-tie"></i> About <span>Me</span></h2>
 
-        <div class="row">
+        <div class="row"  data-aos="fade-down" data-aos-duration="1000">
 
             <div class="image">
                 <img draggable="false" class="tilt" src="image/profile.jpeg" alt="">
@@ -112,7 +114,7 @@
                     </div>
                 </div>
                 <!-- Resume Download Button -->
-                <div class="resumebtn">
+                <div class="resumebtn"  data-aos="fade-down" data-aos-duration="1000">
                     <a href="#" class="btn" download=""><span>Download Resume</span>
                         <i class="fas fa-chevron-right"></i>
                     </a>
@@ -130,7 +132,7 @@
         <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
 
         <div class="container">
-            <div class="row">
+            <div class="row"  data-aos="fade-down" data-aos-duration="1000">
                 <div class="col">
 
                     <div class="bar">
@@ -372,7 +374,7 @@
     <!--*************************** footer section starts************************** -->
     <section class="footer">
         <div class="box-container">
-            <div class="box">
+            <div class="box"  data-aos="fade-right" data-aos-duration="1000">
                 <h3>Yadvendra's Portfolio</h3>
                 <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br />
                     Please
@@ -380,7 +382,7 @@
                     I will update all the sections and projects Soon and also you got lots of informative blogs
                 </p>
             </div>
-            <div class="box">
+            <div class="box"  data-aos="fade-right" data-aos-duration="1000">
                 <h3>quick links</h3>
                 <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
                 <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
@@ -389,7 +391,7 @@
                 <a href="#project"><i class="fas fa-chevron-circle-right"></i> project</a>
                 <a href="#"><i class="fas fa-chevron-circle-right"></i> Services</a>
             </div>
-            <div class="box">
+            <div class="box"  data-aos="fade-right" data-aos-duration="1000">
                 <h3>contact info</h3>
                 <p> <i class="fas fa-envelope"></i>yadvendrashukla919@gmail.com</p>
                 <div class="share">
@@ -404,6 +406,10 @@
                 href="https://www.linkedin.com/in/yadvendra-shukla-3331471b4/"> Yadvendra Shukla</a></h1>
     </section>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
